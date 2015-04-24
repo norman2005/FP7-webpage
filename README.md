@@ -1,14 +1,17 @@
-# FP7-webpage Title of Project
-This is a template for using your repo's README.md as your project web page. 
-I recommend you copy and paste into your README file. Delete this line and the one above it, customize everything else. Make it look good!
+# Lambda
+
 
 ##Authors
-Person One
 
-Person Two
+* **Brian Carlson**
+* **Joshua Caravetta**
+* **Norman Mutunga**
+
 
 ##Overview
-A brief description of the project is given here.  The description is 1 to 3 sentences long.  Be concise and clear.
+
+To provide the user with an Expressive Graphing Calculator that takes in regular infix expression and spits out the simplified solution to the Expression.
+
 
 ##Screenshot
 (insert a screenshot here. You may opt to get rid of the title for it. You need at least one screenshot. Make it actually appear here, don't just add a link.)
