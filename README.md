@@ -21,7 +21,7 @@ Here's a demonstration of how to display an image that's uploaded to this repo:
 
 ##Concepts Demonstrated
 Identify the OPL concepts demonstrated in your project. Be brief. A simple list and example is sufficient. 
-* **Data abstraction** is used to provide access to the elements of the RSS feed.
+* **Data abstraction** is used to provide access to Simplify,KeyWordDefinitions,Derivative,Keypair.
 * The objects in the OpenGL world are represented with **recursive data structures.**
 * **Symbolic language processing techniques** are used in the parser.
 
@@ -34,6 +34,22 @@ Each team member should identify a favorite line of code, expression, or procedu
 Remember code looks something like this:
 ```scheme
 (map (lambda (x) (foldr compose functions)) data)
+```
+####Norman 
+This procedure reads in a regular expression packages it into a string hands it over to a parser procedure that handles the expression and hands back the solution to an output-field which the user can see or have it plotted on the canvas depending on the expression.
+```
+;(init-value "Expression")
+      (callback (λ (input-field event)
+            (cond
+             ; If a user hits enter to compute an equation
+            ((equal? (send event get-event-type) 'text-field-enter) 
+             (begin
+             ; Clear canvas
+             (send pb erase)
+             ; Set outputString to solved equation
+             (set! outputString (main-parser (send input-field get-value)))
+             ; Send outputString to output-field
+            (send output-field set-value outputString))))))
 ```
 ####Lillian (another team member)
 This expression reads in a regular expression and elegantly matches it against a pre-existing hashmap....
