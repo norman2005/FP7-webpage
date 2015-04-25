@@ -51,6 +51,14 @@ This procedure reads in a regular expression packages it into a string hands it 
              ; Send outputString to output-field
             (send output-field set-value outputString))))))
 ```
+####Brian Carlson
+```
+code
+```
+####Joshua Caravetta
+```
+code
+```
 ####Lillian (another team member)
 This expression reads in a regular expression and elegantly matches it against a pre-existing hashmap....
 ```scheme
