@@ -76,7 +76,7 @@ Anything else you want to say in your report. Can rename or remove this section.
 
 #How to Download and Run
 
-1. Download the latest release from here: *release link*
+1. Download the latest release from here: *release link* https://github.com/oplS15projects/Lambda
 2. Open and run Lambda.rkt
 3. Input expression is typed into the `Input`, using syntax: `keyword equation`
 4. Output is seen in the `Ouput` or lower canvas depending on keywords used.
