@@ -73,8 +73,20 @@ This expression reads in a regular expression and elegantly matches it against a
 ##Additional Remarks
 Anything else you want to say in your report. Can rename or remove this section.
 
-#How to Download and Run
-You may want to link to your latest release for easy downloading by people (such as Mark).
 
-Include what file to run, what to do with that file, how to interact with the app when its running, etc. 
+#How to Download and Run
+
+1. Download the latest release from here: *release link*
+2. Open and run Lambda.rkt
+3. Input expression is typed into the `Input`, using syntax: `keyword equation`
+4. Output is seen in the `Ouput` or lower canvas depending on keywords used.
+
+**Example 1:** `plot x+2*x+3` - support for only one variable **x** is currently available.
+
+This will plot `x+2*x+3` in the lower canvas field
+
+**Example 2:** `eval 1+2*3^4` or `1+2*3^4` will both evaluate to: 163. `eval` is the default keyword if no keyword is entered.
+
+If `eval` is used on an equation with a variable, such as `x+2`, it will return `cannot evaluate: x+2` since there is a variable.
+
 
